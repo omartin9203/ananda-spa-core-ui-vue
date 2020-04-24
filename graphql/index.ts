@@ -7,6 +7,5 @@ export default {
   },
   fragments: {
     ...ResourceFragments,
-    aaa: null,
   },
 }
