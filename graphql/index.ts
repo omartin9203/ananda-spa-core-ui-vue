@@ -1,4 +1,4 @@
-import { RESOURCE_FRAGMENT } from "./fragments/resource";
+import ResourceFragments from "./fragments/resource";
 
 export default {
   queries: {
@@ -6,6 +6,6 @@ export default {
   mutations: {
   },
   fragments: {
-    RESOURCE_FRAGMENT,
+    ...ResourceFragments,
   },
 }

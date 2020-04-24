@@ -1,9 +1,13 @@
 import { gql } from 'apollo-boost'
 
-export const RESOURCE_FRAGMENT = gql`
-    fragment Resource on ResourceDto {
+const RESOURCE_FRAGMENT = gql`
+    fragment ResourceFragment on ResourceDto {
         id
         createdAt
         updatedAt
     }
 `;
+
+export default {
+  RESOURCE_FRAGMENT,
+}
